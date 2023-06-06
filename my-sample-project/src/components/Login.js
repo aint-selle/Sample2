@@ -216,20 +216,24 @@ function Login() {
                     <Form.Control type="password" placeholder="Password" />
                   </Form.Group>
                 </Form>
-                <Container>
+                {/* <Container>
                 <Row className="password-login">
                   <Col className="forgot-password">
-                    {/* <Button type="button" className="forgot-password-btn outline-light btn-sm">Forgot Password</Button>   */}
                     <Button variant="link" style={{color: "white"}} className="forgot-password-btn btn-sm">Forgot Password</Button>
                   </Col>
                   <Col className="login">
-                    {/* <Button type="button" className="login-btn outline-light btn-sm">Log In</Button>   */}
                     <Button onClick={Home} variant="outline-light" style={{color: "white"}} className="login-btn btn-sm">
                         Log In
                     </Button>
                   </Col>
                 </Row>
-              </Container>
+              </Container> */}
+              <div className="forgot-password-and-login-div">
+                <Button variant="link" style={{color: "white"}} className="forgot-password-btn btn-sm">Forgot Password</Button>
+                <Button onClick={Home} variant="outline-light" style={{color: "white"}} className="login-btn btn-sm">
+                        Log In
+                </Button>
+              </div>
               <Container>
                 <div className="copyright-text">
                   <p>Copyright © 2023|Powered by HCX Tech Team</p>

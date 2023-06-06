@@ -110,17 +110,23 @@
 .introduction{
     color: white;
 }
-.password-login{
+/* .password-login{
     padding-top: 10%;
-}
+} */
 .forgot-password-btn{
     color: white;
 }
 .forgot-password{
     text-align: center;
 }
+.forgot-password-and-login-div{
+    display: flex;
+    margin-top: 60px;
+}
 .login-btn{
     color: white;
+    width: 100px;
+    margin-left: 85px;
 }
 .login{
     text-align: center;
@@ -134,10 +140,7 @@
 }
 /* ----- End LogIn Page -----*/
 /* ----- Home Page -----*/
-/* .home-div{
-    color: white;
-    background-color: #99582a;
-} */
+/* ----- Home Page left Column -----*/
 .home-main-left{
     background-color: #432818;
     color: #ede0d4;
@@ -145,44 +148,248 @@
     height: 100%;
     
 }
+.home-img-logo{
+    min-width: 214px;
+    max-height: 80px;
+    margin-bottom: 5px;    
+}
+.accordion-all{
+    border-radius: 0 !important;
+    border: 2px solid ;
+    border-color: #432818;
+    background-color: #432818;
+}
+.accordion-tab-body{
+    background-color: #ede0d4;
+    color: #432818;
+    font-size: 15px;
+    font-style: normal;
+    border-radius: 0 !important;
+}
+.accordion-body-row{
+    border-bottom: 1.5px solid;
+    border-color: #432818;
+}
+/* ----- End Home Page left Column -----*/
+/* ----- Home Page right Column -----*/
 .home-main-right{
     background-color: #ede0d4;
     color: #ede0d4;
     height: 100%;
 }
 .header{
-    margin-left: -12px;
+    /* margin-left: -12px; */
     background-color: #A36822;     
-
 }
-.inbox-btn-div{
+.menu-header-div{
     text-align: right;
+    height: 80.4px;
+    display: flex;
+}
+.home-btn{
+    position: relative;
+    background-color: #bb9457;
+    border: none;
+    color: white;
+    width: 70px;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;   
+    margin-left: 800px;
+    border-radius: 5px;
 }
 .inbox-btn{
     position: relative;
     background-color: #bb9457;
     border: none;
     color: white;
-    margin-top: 15px;
+    width: 70px;
+    height: 35px;
+    margin-top: 20px;
     margin-bottom: 15px;
-    margin-right: 25px;   
+    margin-right: 27px;   
+    border-radius: 5px;
+}
+#menu-button{
+    text-align: center;
+    background-color: #bb9457;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 13px;   
     border-radius: 5px; 
 }
-/* .home-verical-line1{
-    border-left: 7.4px solid #432818;
-    height: 101%;
-    position: absolute;
-    left: 16.3%;
-    margin-left: -4px;
-    margin-top: -27.9%;
+.home-div-bundee-welcome{
+    display: flex;
 }
-.home-verical-line2{
-    border-left: 7.7px solid #432818;
-    height: 100.9%;
-    position: absolute;
-    left: 16.7%;
-    margin-left: -4px;
-    margin-top: -1px;
-} */
-
+.bundee-clock{
+    color: #432818;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#bundee-clock-header{
+    background-color: #d4a373;
+}
+#date-time-div{
+    display: flex;
+    height: 25px;
+    margin-top: 4px;
+    margin-bottom: 0px !important;
+}
+.date{
+    margin-right: 30px;
+    font-size: 13px;
+}
+.time{
+    font-size: 13px;
+}
+.bundee-clock-title{
+    text-align: center;
+}
+.bundee-clock-body{
+    background-color: #fefae0;
+    border-radius: 10px;
+}
+.bundee-clock-text{
+    font-size: 13px;
+}
+.bundee-buttons{
+    text-align: center;
+    background-color: #bb9457 !important;
+    border: none;
+    color: white !important;
+    height: 40px;
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.punch-span{
+    font-size: 13px;
+    margin-left: 15px;
+}
+.welcome-card{
+    color: #432818;
+    width: 500px;
+    height: 110px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.welcome-body{
+    background-color: #fefae0;
+    border-radius: 7px;
+}
+.welcome-text{
+    font-size: 13px;
+}
+#see-announcements-button{
+    text-align: center;
+    /* background-color: #bb9457 !important; */
+    border: none;
+    color: #540b0e;
+    height: 40px;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+.calendar-card{
+    color: #432818;
+    width: 225px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#calendar-header{
+    background-color: #d4a373;
+}
+.calendar-body{
+    background-color: #fefae0;
+    border-radius: 7px;
+}
+.calendar-text{
+    margin-bottom: 25px;
+}
+#calendar-seemore-button{
+    text-align: center;
+    /* background-color: #bb9457 !important; */
+    border: none;
+    color: #540b0e;
+    height: 40px;
+    width: 100px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+.attendace-leave-credits-div{
+    display: flex;
+}
+.attendace-card{
+    color: #432818;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#attendace-header{
+    background-color: #d4a373;
+}
+.attendace-body{
+    background-color: #fefae0;
+    border-radius: 7px;
+    height: 240px;
+}
+#attendace-seemore-button{
+    text-align: center;
+    /* background-color: #bb9457 !important; */
+    border: none;
+    color: #540b0e;
+    height: 40px;
+    width: 200px;
+    margin-top: 90px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+.Leave-credits-card{
+    color: #432818;
+    width: 335px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#Leave-credits-header{
+    background-color: #d4a373;
+}
+.Leave-credits-body{
+    background-color: #fefae0;
+    border-radius: 7px;
+    height: 240px;
+}
+#Leave-credits-seemore-button{
+    text-align: center;
+    background-color: #bb9457 !important;
+    border: none;
+    color: white !important;
+    height: 40px;
+    width: 200px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+}
+/* ----- End Home Page right Column -----*/
 /* ----- End Home Page -----*/
+/* ----- Personal Information Page -----*/
+.main-body-card{
+    color: #432818;
+    width: 1045px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#main-body-header{
+    background-color: #d4a373;
+}
+.main-body-body{
+    background-color: #fefae0;
+    border-radius: 7px;
+    height: 475px;
+}
+/* ----- Personal Information Page -----*/
