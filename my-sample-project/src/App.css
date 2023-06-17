@@ -392,4 +392,653 @@
     border-radius: 7px;
     height: 475px;
 }
+.first-div{
+    display: flex;
+}
+.first-name-div{
+    margin-right: 30px;
+}
+.first-name-label{
+    font-size: 14px;
+}
+.first-name{
+    max-width: 170px;
+}
+.first-name-form{
+    text-align: left;
+}
+.last-name-div{
+    margin-right: 30px;
+}
+.last-name-label{
+    font-size: 14px;
+}
+.last-name{
+    max-width: 170px;
+}
+.last-name-form{
+    text-align: left;
+}
+.middle-name-div{
+    margin-right: 30px;
+}
+.middle-name-label{
+    font-size: 14px;
+}
+.middle-name{
+    max-width: 170px;
+}
+.middle-name-form{
+    text-align: left;
+}
+.suffix-div{
+    margin-right: 30px;
+    width: 120px;
+}
+.suffix-name-label{
+    font-size: 14px;
+}
+.suffix-name-form{
+    max-width: 120px;
+}
+.nickname-div{
+    margin-right: 30px;
+}
+.nickname-label{
+    font-size: 14px;
+}
+.nickname{
+    max-width: 170px;
+}
+.nickname-form{
+    text-align: left;
+}
+.second-div{
+    display: flex;
+    margin-top: 20px;
+}
+.contact-number-div{
+    margin-right: 30px;
+}
+.contact-number-label{
+    font-size: 14px;
+}
+.contact-number{
+    max-width: 150px;
+}
+.contact-number-form{
+    text-align: left;
+}
+.email-div{
+    margin-right: 30px;
+    width: 300px;
+}
+.email-label{
+    font-size: 14px;
+}
+.email{
+    max-width: 300px;
+}
+.email-form{
+    text-align: left;
+}
+.birthdate-div{
+    margin-right: 20px;
+    width: 160px;
+}
+#birthdate{
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    height: 38px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+}
+.birthdate-label{
+    font-size: 14px;
+}
+.gender-div{
+    margin-right: 30px;
+    width: 120px;
+}
+.gender-label{
+    font-size: 14px;
+}
+.gender-form{
+    max-width: 120px;
+}
+.third-div{
+    display: flex;
+    margin-top: 20px;
+}
+.place-of-birth-div{
+    margin-right: 30px;
+    width: 450px;
+}
+.place-of-birth-label{
+    font-size: 14px;
+}
+.place-of-birth{
+    max-width: 450px;
+}
+.place-of-birth-form{
+    text-align: left;
+}
+.country-of-birth-div{
+    margin-right: 30px;
+    width: 200px;
+}
+.country-of-birth-label{
+    font-size: 14px;
+}
+.country-of-birth{
+    max-width: 200px;
+}
+.country-of-birth-form{
+    text-align: left;
+}
+.marital-status-div{
+    margin-right: 30px;
+    width: 160px;
+}
+.marital-status-label{
+    font-size: 14px;
+}
+.marital-status-form{
+    max-width: 160px;
+}
+.fourth-div{
+    display: flex;
+    margin-top: 20px;
+}
+.father-name-div{
+    margin-right: 30px;
+    width: 200px;
+}
+.father-name-label{
+    font-size: 14px;
+}
+.father-name{
+    max-width: 200px;
+}
+.father-name-form{
+    text-align: left;
+}
+.mother-name-div{
+    margin-right: 30px;
+    width: 200px;
+}
+.mother-name-label{
+    font-size: 14px;
+}
+.mother-name{
+    max-width: 200px;
+}
+.mother-name-form{
+    text-align: left;
+}
+.ethnic-group-div{
+    margin-right: 30px;
+    width: 200px;
+}
+.ethnic-group-label{
+    font-size: 14px;
+}
+.ethnic-group{
+    max-width: 200px;
+}
+.ethnic-group-form{
+    text-align: left;
+}
+.religion-div{
+    margin-right: 30px;
+    width: 200px;
+}
+.religion-label{
+    font-size: 14px;
+}
+.religion{
+    max-width: 200px;
+}
+.religion-form{
+    text-align: left;
+}
+.fifith-div{
+    display: flex;
+    margin-top: 20px;
+}
+.current-address-div{
+    margin-right: 30px;
+    width: 450px;
+}
+.current-address-label{
+    font-size: 14px;
+}
+.current-address{
+    max-width: 450px;
+}
+.current-address-form{
+    text-align: left;
+}
+.zip-code-div{
+    margin-right: 30px;
+    width: 150px;
+}
+.zip-code-label{
+    font-size: 14px;
+}
+.zip-code{
+    max-width: 150px;
+}
+.zip-code-form{
+    text-align: left;
+}
+.next-btn{
+    position: relative;
+    background-color: #bb9457;
+    border: none;
+    color: white;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 275px;
+}
 /* ----- Personal Information Page -----*/
+/* ----- Second Personal Information Page -----*/
+.second-page-first-div{
+    display: flex;
+    margin-top: 20px;
+}
+.citizenship-div{
+    margin-right: 30px;
+    width: 200px;
+}
+.citizenship-label{
+    font-size: 14px;
+}
+.citizenship-form{
+    max-width: 200px;
+}
+.nationality-div{
+    margin-right: 30px;
+    width: 200px;
+}
+.nationality-label{
+    font-size: 14px;
+}
+.nationality-form{
+    max-width: 200px;
+}
+.language-div{
+    margin-right: 30px;
+    width: 200px;
+}
+.language-label{
+    font-size: 14px;
+}
+.language-form{
+    max-width: 200px;
+}
+.blood-type-div{
+    margin-right: 30px;
+    width: 120px;
+}
+.blood-type-label{
+    font-size: 14px;
+}
+.blood-type-form{
+    max-width: 120px;
+}
+.emergency-concact-header{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.second-page-third-div{
+    display: flex;
+    margin-top: 15px;
+}
+.emergency-name-div{
+    margin-right: 30px;
+}
+.emergency-name-label{
+    font-size: 14px;
+}
+.emergency-name{
+    max-width: 200px;
+}
+.emergency-name-form{
+    text-align: left;
+}
+.emergency-address-div{
+    margin-right: 30px;
+    width: 350px;
+}
+.emergency-address-label{
+    font-size: 14px;
+}
+.emergency-address{
+    max-width: 350px;
+}
+.emergency-address-form{
+    text-align: left;
+}
+.relationship-div{
+    margin-right: 30px;
+    width: 160px;
+}
+.relationship-label{
+    font-size: 14px;
+}
+.relationship{
+    max-width: 160px;
+}
+.relationship-form{
+    text-align: left;
+}
+.emergency-contact-number-div{
+    margin-right: 30px;
+    width: 160px;
+}
+.emergency-contact-number-label{
+    font-size: 14px;
+}
+.emergency-contact-number{
+    max-width: 160px;
+}
+.emergency-contact-number-form{
+    text-align: left;
+}
+.government-contribution-header{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.second-page-fifth-div{
+    display: flex;
+    margin-top: 15px;
+}
+.pag-ibig-div{
+    margin-right: 30px;
+    width: 160px;
+}
+.pag-ibig-label{
+    font-size: 14px;
+}
+.pag-ibig{
+    max-width: 160px;
+}
+.pag-ibig-form{
+    text-align: left;
+}
+.philhealth-div{
+    margin-right: 30px;
+    width: 160px;
+}
+.philhealth-label{
+    font-size: 14px;
+}
+.philhealth{
+    max-width: 160px;
+}
+.philhealth-form{
+    text-align: left;
+}
+.sss-no-div{
+    margin-right: 30px;
+    width: 160px;
+}
+.sss-no-label{
+    font-size: 14px;
+}
+.sss-no{
+    max-width: 160px;
+}
+.sss-no-form{
+    text-align: left;
+}
+.tin-no-div{
+    margin-right: 30px;
+    width: 160px;
+}
+.tin-no-label{
+    font-size: 14px;
+}
+.tin-no{
+    max-width: 160px;
+}
+.tin-no-form{
+    text-align: left;
+}
+.prev-btn{
+    position: relative;
+    background-color: #bb9457;
+    border: none;
+    color: white;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 45px;
+    margin-left: 925px;
+}
+/* ----- Second Personal Information Page -----*/
+/* ----- Employment Details Page -----*/
+.employment-details-first-div{
+    display: flex;
+    margin-top: 20px;
+}
+.employee-id-div{
+    margin-right: 30px;
+    width: 150px;
+}
+.employee-id-label{
+    font-size: 14px;
+}
+.employee-id{
+    max-width: 150px;
+}
+.employee-id-form{
+    text-align: left;
+}
+.position-div{
+    margin-right: 30px;
+    width: 150px;
+}
+.position-label{
+    font-size: 14px;
+}
+.position-form{
+    max-width: 150px;
+}
+.employment-type-div{
+    margin-right: 30px;
+    width: 150px;
+}
+.employment-type-label{
+    font-size: 14px;
+}
+.employment-type-form{
+    max-width: 150px;
+}
+.department-div{
+    margin-right: 30px;
+    width: 220px;
+}
+.department-label{
+    font-size: 14px;
+}
+.department-form{
+    max-width: 220px;
+}
+.division-div{
+    margin-right: 30px;
+    width: 180px;
+}
+.division-label{
+    font-size: 14px;
+}
+.division-form{
+    max-width: 180px;
+}
+.employment-details-second-div{
+    display: flex;
+    margin-top: 20px;
+}
+.company-email-div{
+    margin-right: 30px;
+    width: 300px;
+}
+.company-email-label{
+    font-size: 14px;
+}
+.company-email{
+    max-width: 300px;
+}
+.company-email-form{
+    text-align: left;
+}
+.work-arrangement-div{
+    margin-right: 30px;
+    width: 180px;
+}
+.work-arrangement-label{
+    font-size: 14px;
+}
+.work-arrangement-form{
+    max-width: 180px;
+}
+.employment-status-div{
+    margin-right: 30px;
+    width: 120px;
+}
+.employment-status-label{
+    font-size: 14px;
+}
+.employment-status-form{
+    max-width: 120px;
+}
+.work-location-div{
+    margin-right: 30px;
+    width: 250px;
+}
+.work-location-label{
+    font-size: 14px;
+}
+.work-location-form{
+    max-width: 250px;
+}
+.employment-details-third-div{
+    display: flex;
+    margin-top: 20px;
+}
+.hire-date-div{
+    margin-right: 20px;
+    width: 160px;
+}
+#hire-date{
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    height: 38px;
+    width: 160px;
+    border-radius: 5px;
+    text-align: center;
+}
+.hire-date-label{
+    font-size: 14px;
+}
+.regularization-date-div{
+    margin-right: 20px;
+    width: 160px;
+}
+#regularization-date{
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    height: 38px;
+    width: 160px;
+    border-radius: 5px;
+    text-align: center;
+}
+.regularization-date-label{
+    font-size: 14px;
+}
+.resigned-date-div{
+    margin-right: 20px;
+    width: 160px;
+}
+#resigned-date{
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    height: 38px;
+    width: 160px;
+    border-radius: 5px;
+    text-align: center;
+}
+.resigned-date-label{
+    font-size: 14px;
+}
+.resigned-remark-div{
+    margin-right: 20px;
+    width: 400px;
+}
+.resigned-remark-label{
+    font-size: 14px;
+}
+#resigned-remark{
+    max-height: 20px;
+}
+.approvers-header{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.employment-details-fifth-div{
+    display: flex;
+    margin-top: 20px;
+}
+.first-approver-empid-div{
+    margin-right: 30px;
+    width: 150px;
+}
+.first-approver-empid-label{
+    font-size: 14px;
+}
+.first-approver-empid{
+    max-width: 150px;
+}
+.first-approver-empid-form{
+    text-align: left;
+}
+.first-approver-name-div{
+    margin-right: 30px;
+    width: 250px;
+}
+.first-approver-name-label{
+    font-size: 14px;
+}
+.first-approver-name{
+    max-width: 250px;
+}
+.second-approver-name-form{
+    text-align: left;
+}
+.second-approver-empid-div{
+    margin-right: 30px;
+    width: 150px;
+}
+.second-approver-empid-label{
+    font-size: 14px;
+}
+.second-approver-empid{
+    max-width: 150px;
+}
+.second-approver-empid-form{
+    text-align: left;
+}
+.second-approver-name-div{
+    margin-right: 30px;
+    width: 250px;
+}
+.second-approver-name-label{
+    font-size: 14px;
+}
+.second-approver-name{
+    max-width: 250px;
+}
+.second-approver-name-form{
+    text-align: left;
+}
+/* ----- Employment Details Page -----*/

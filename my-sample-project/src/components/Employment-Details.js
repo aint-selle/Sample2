@@ -47,7 +47,7 @@ import { InputGroup } from "react-bootstrap";
 //     );
 // }
 
-const PersonalInformation = () => {
+const EmploymentDetails = () => {
     // const [modalShow, setModalShow] = React.useState(false);
 
     return (
@@ -184,7 +184,7 @@ const PersonalInformation = () => {
 {/* ---------------------------------------- End 1st Column Body Left ---------------------------------------- */}
 {/* ---------------------------------------- 2nd Column Body Left ---------------------------------------- */}
                     <Col className="home-main-right col-sm-10 p-0">
-{/* ---------------------------------------- End Header Div---------------------------------------- */}
+{/* ---------------------------------------- Header Div---------------------------------------- */}
                         <div className="header">
                             <div className="menu-header-div">
                                 <button type="button" className="home-btn">Home</button>
@@ -207,205 +207,172 @@ const PersonalInformation = () => {
                         <Card className="main-body-card">
                             <Card.Header id="main-body-header">Employee Details</Card.Header>
                                 <Card.Body className="main-body-body">
-                                    <Card.Title className="main-body-title">Personal Information</Card.Title>
+                                    <Card.Title className="main-body-title">Position Details</Card.Title>
 {/* ---------------------------------------- Main Body Div---------------------------------------- */}
                                         <div className="main-body-div">
 {/* ---------------------------------------- First Div---------------------------------------- */}
-                                        <div className="first-div">
-                                            <div className="first-name-div">
-                                            <label className="first-name-label">First Name</label>
-                                            <InputGroup className="first-name">
-                                                <Form.Control
-                                                className="first-name-form"
-                                                aria-label="Default"
-                                                aria-describedby="inputGroup-sizing-default"
-                                                />
-                                            </InputGroup>
+                                            <div className="employment-details-first-div">
+                                                <div className="employee-id-div">
+                                                    <label className="employee-id-label">Employee ID</label>
+                                                    <InputGroup className="employee-id">
+                                                        <Form.Control
+                                                        className="employee-id-form"
+                                                        aria-label="Default"
+                                                        aria-describedby="inputGroup-sizing-default"
+                                                        />
+                                                    </InputGroup>
+                                                </div>
+                                                <div className="position-div">
+                                                <label className="position-label">Position</label>
+                                                <Form.Select className="position-form" aria-label="Default select position">
+                                                    <option value="admin">Admin</option> 
+                                                    <option value="payroll-manager">Payroll Manager</option> 
+                                                    <option value="finance">Finance</option> 
+                                                    <option value="hr">HR</option> 
+                                                    <option value="employee">Employee</option> 
+                                                </Form.Select>
+                                                </div>
+                                                <div className="employment-type-div">
+                                                <label className="employment-type-label">Emplyment Type</label>
+                                                <Form.Select className="employment-type-form" aria-label="Default select employment-type">
+                                                    <option value="internship">Internship</option> 
+                                                    <option value="probationary">Probationary</option> 
+                                                    <option value="regular">Regular</option> 
+                                                    <option value="fixed-term">Fixed Term</option> 
+                                                    <option value="project-based">Project Based</option> 
+                                                </Form.Select>
+                                                </div>
+                                                <div className="department-div">
+                                                <label className="department-label">Department</label>
+                                                <Form.Select className="department-form" aria-label="Default select department">
+                                                    <option value="department1">Department 1</option> 
+                                                    <option value="department2">Department 2</option> 
+                                                    <option value="department3">Department 3</option> 
+                                                    <option value="department4">department 4</option> 
+                                                    <option value="department5">Department 5</option> 
+                                                </Form.Select>
+                                                </div>
+                                                <div className="division-div">
+                                                <label className="division-label">Division</label>
+                                                <Form.Select className="division-form" aria-label="Default select division">
+                                                    <option value="division1">Division 1</option> 
+                                                    <option value="division2">Division 2</option> 
+                                                    <option value="division3">Division 3</option> 
+                                                    <option value="division4">Division 4</option> 
+                                                    <option value="division5">Division 5</option> 
+                                                </Form.Select>
+                                                </div>
                                             </div>
-                                            <div className="middle-name-div">
-                                            <label className="middle-name-label">Middle Name</label>
-                                            <InputGroup className="middle-name">
-                                                <Form.Control
-                                                className="middle-name-form"
-                                                aria-label="Default"
-                                                aria-describedby="inputGroup-sizing-default"
-                                                />
-                                            </InputGroup>
-                                            </div>
-                                            <div className="last-name-div">
-                                            <label className="last-name-label">Last Name</label>
-                                            <InputGroup className="last-name">
-                                                <Form.Control
-                                                className="last-name-form"
-                                                aria-label="Default"
-                                                aria-describedby="inputGroup-sizing-default"
-                                                />
-                                            </InputGroup>
-                                            </div>
-                                            <div className="suffix-div">
-                                            <label className="suffix-name-label">Suffix Name</label>
-                                            <Form.Select className="suffix-name-form" aria-label="Default select suffix">
-                                                <option value="Jr">Jr.</option>
-                                                <option value="Sr">Sr.</option>
-                                                <option value="I">I</option>
-                                                <option value="II">II</option>
-                                                <option value="III">III</option>
-                                            </Form.Select>
-                                            </div>
-                                            <div className="nickname-div">
-                                            <label className="nickname-label">Nickname</label>
-                                            <InputGroup className="nickname">
-                                                <Form.Control
-                                                className="nickname-form"
-                                                aria-label="Default"
-                                                aria-describedby="inputGroup-sizing-default"
-                                                />
-                                            </InputGroup>
-                                            </div>
-                                        </div>
 {/* ---------------------------------------- End First Div---------------------------------------- */}
 {/* ---------------------------------------- Second Div---------------------------------------- */}
-                                        <div className="second-div">
-                                            <div className="gender-div">
-                                                <label className="gender-label">Gender</label>
-                                                <Form.Select className="gender-form" aria-label="Default select gender">
-                                                    <option value="Male">Male</option>
-                                                    <option value="Female">Female</option>
+                                        <div className="employment-details-second-div">
+                                            <div className="company-email-div">
+                                            <label className="company-email-label">Company Email</label>
+                                                <InputGroup className="company-email">
+                                                    <Form.Control
+                                                    type="email"
+                                                    placeholder="username@gmail.com"
+                                                    className="company-email-form"
+                                                    aria-label="Default"
+                                                    aria-describedby="inputGroup-sizing-default"
+                                                    />
+                                                </InputGroup>
+                                            </div>
+                                            <div className="work-arrangement-div">
+                                                <label className="work-arrangement-label">Work Arrangement</label>
+                                                <Form.Select className="work-arrangement-form" aria-label="Default select work-arrangement">
+                                                    <option value="work-from-home">Work Form Home</option> 
+                                                    <option value="on-site">On Site</option> 
                                                 </Form.Select>
                                             </div>
-                                            <div className="birthdate-div">
-                                                <label className="birthdate-label">Birthdate</label><br/>
-                                                <input type="date" id="birthdate" class="birthdaytime"></input>
+                                            <div className="employment-status-div">
+                                                <label className="employment-status-label">Employment Status</label>
+                                                <Form.Select className="employment-status-form" aria-label="Default select employment-status">
+                                                    <option value="active">Active</option> 
+                                                    <option value="inactive">Inactive</option> 
+                                                </Form.Select>
                                             </div>
-                                            <div className="contact-number-div">
-                                            <label className="contact-number-label">Contact Number</label>
-                                            <InputGroup className="contact-number">
-                                                <Form.Control
-                                                className="contact-number-form"
-                                                aria-label="Default"
-                                                aria-describedby="inputGroup-sizing-default"
-                                                />
-                                            </InputGroup>
-                                            </div>
-                                            <div className="email-div">
-                                            <label className="email-label">Email Address</label>
-                                            <InputGroup className="email">
-                                                <Form.Control
-                                                type="email"
-                                                placeholder="username@gmail.com"
-                                                className="email-form"
-                                                aria-label="Default"
-                                                aria-describedby="inputGroup-sizing-default"
-                                                />
-                                            </InputGroup>
+                                            <div className="work-location-div">
+                                                <label className="work-location-label">Work Location</label>
+                                                <Form.Select className="work-location-form" aria-label="Default select work-location">
+                                                    <option value="location 1">Location 1</option> 
+                                                    <option value="location 2">Location 2</option> 
+                                                    <option value="location 3">Location 3</option> 
+                                                    <option value="location 4">Location 4</option> 
+                                                    <option value="location 5">Location 5</option> 
+                                                </Form.Select>
                                             </div>
                                         </div>
 {/* ---------------------------------------- End Second Div---------------------------------------- */}
 {/* ---------------------------------------- Third Div---------------------------------------- */}
-                                        <div className="third-div">
-                                            <div className="place-of-birth-div">
-                                                <label className="place-of-birth-label">Place of Birth</label>
-                                                <InputGroup className="place-of-birth">
-                                                    <Form.Control
-                                                    className="place-of-birth-form"
-                                                    aria-label="Default"
-                                                    aria-describedby="inputGroup-sizing-default"
-                                                    />
-                                                </InputGroup>
+                                        <div className="employment-details-third-div">
+                                            <div className="hire-date-div">
+                                                <label className="hire-date-label">Hire Date</label><br/>
+                                                <input type="date" id="hire-date" class="hire-date"></input>
                                             </div>
-                                            <div className="country-of-birth-div">
-                                                <label className="country-of-birth-label">Country of Birth</label>
-                                                <InputGroup className="country-of-birth">
-                                                    <Form.Control
-                                                    className="country-of-birth-form"
-                                                    aria-label="Default"
-                                                    aria-describedby="inputGroup-sizing-default"
-                                                    />
-                                                </InputGroup>
+                                            <div className="regularization-date-div">
+                                                <label className="regularization-date-label">Regularization Date</label><br/>
+                                                <input type="date" id="regularization-date" class="regularization-date"></input>
                                             </div>
-                                            <div className="marital-status-div">
-                                            <label className="marital-status-label">Marital Status</label>
-                                            <Form.Select className="marital-status-form" aria-label="Default select marital status">
-                                                <option value="single">Single</option>
-                                                <option value="married">Married</option>
-                                                <option value="solo-parent">Solo Parent</option>
-                                            </Form.Select>
-                                        </div>
+                                            <div className="resigned-date-div">
+                                                <label className="resigned-date-label">Resigned Date</label><br/>
+                                                <input type="date" id="resigned-date" class="resign-date"></input>
+                                            </div>
+                                            <div className="resigned-remark-div">
+                                                <label for="exampleFormControlTextarea1" className="resigned-remark-label">Resigned Remark</label>
+                                                <textarea class="form-control" id="resigned-remark" rows="5"></textarea>
+                                            </div>
                                         </div>
 {/* ---------------------------------------- End Third Div---------------------------------------- */}
 {/* ---------------------------------------- Fourth Div---------------------------------------- */}
-                                        <div className="fourth-div">
-                                            <div className="father-name-div">
-                                                <label className="father-name-label">Father's Name</label>
-                                                <InputGroup className="father-name">
+                                        <h3 className="approvers-header">Approvers</h3>
+{/* ---------------------------------------- End Fourth Div---------------------------------------- */}
+{/* ---------------------------------------- Fifth Div---------------------------------------- */}
+                                        <div className="employment-details-fifth-div">
+                                            <div className="first-approver-empid-div">
+                                                <label className="first-approver-empid-label">Approver EmpID</label>
+                                                <InputGroup className="first-approver-empid">
                                                     <Form.Control
-                                                    className="father-name-form"
+                                                    className="first-approver-empid-form"
                                                     aria-label="Default"
                                                     aria-describedby="inputGroup-sizing-default"
                                                     />
                                                 </InputGroup>
                                             </div>
-                                            <div className="mother-name-div">
-                                                <label className="mother-name-label">Mother's Name</label>
-                                                <InputGroup className="mother-name">
+                                            <div className="first-approver-name-div">
+                                                <label className="first-approver-name-label">First Approver Name</label>
+                                                <InputGroup className="first-approver-name">
                                                     <Form.Control
-                                                    className="mother-name-form"
+                                                    className="first-approver-name-form"
                                                     aria-label="Default"
                                                     aria-describedby="inputGroup-sizing-default"
                                                     />
                                                 </InputGroup>
                                             </div>
-                                            <div className="ethnic-group-div">
-                                                <label className="ethnic-group-label">Ethnic Group</label>
-                                                <InputGroup className="ethnic-group">
+                                            <div className="second-approver-empid-div">
+                                                <label className="second-approver-empid-label">Approver EmpID</label>
+                                                <InputGroup className="second-approver-empid">
                                                     <Form.Control
-                                                    className="ethnic-group-form"
+                                                    className="second-approver-empid-form"
                                                     aria-label="Default"
                                                     aria-describedby="inputGroup-sizing-default"
                                                     />
                                                 </InputGroup>
                                             </div>
-                                            <div className="religion-div">
-                                                <label className="religion-label">Religion</label>
-                                                <InputGroup className="religion">
+                                            <div className="second-approver-name-div">
+                                                <label className="second-approver-name-label">Second Approver Name</label>
+                                                <InputGroup className="second-approver-name">
                                                     <Form.Control
-                                                    className="religion-form"
+                                                    className="second-approver-name-form"
                                                     aria-label="Default"
                                                     aria-describedby="inputGroup-sizing-default"
                                                     />
                                                 </InputGroup>
                                             </div>
                                         </div>
-{/* ---------------------------------------- End Fourth Div---------------------------------------- */}
-{/* ---------------------------------------- End Fourth Div---------------------------------------- */}
-                                        <div className="fifith-div">
-                                            <div className="current-address-div">
-                                                <label className="current-address-label">Current Address</label>
-                                                <InputGroup className="current-address">
-                                                    <Form.Control
-                                                    className="current-address-form"
-                                                    aria-label="Default"
-                                                    aria-describedby="inputGroup-sizing-default"
-                                                    />
-                                                </InputGroup>
-                                            </div>
-                                            <div className="zip-code-div">
-                                                <label className="zip-code-label">Zip Code</label>
-                                                <InputGroup className="zip-code">
-                                                    <Form.Control
-                                                    className="zip-code-form"
-                                                    aria-label="Default"
-                                                    aria-describedby="inputGroup-sizing-default"
-                                                    />
-                                                </InputGroup>
-                                            </div>
-                                            <div className="next-btn-div">
-                                                <button type="button" className="next-btn">Next</button>
-                                            </div>
-                                            </div>
-{/* ---------------------------------------- End Fourth Div---------------------------------------- */}
+{/* ---------------------------------------- End Fifth Div---------------------------------------- */}
 {/* ---------------------------------------- End Main Body Div---------------------------------------- */}
-                                </div>
+                                        </div>
                             </Card.Body>
                             </Card>
                         </div>
@@ -419,4 +386,4 @@ const PersonalInformation = () => {
     );
 };
 
-export default PersonalInformation;
+export default EmploymentDetails;
